@@ -1,0 +1,18 @@
+a {
+    background: linear-gradient(to right, #a393eb, #a393eb) no-repeat right bottom;
+    background-size: 0 2px;
+    transition: background-size 1300ms;
+}
+
+a:hover {
+    background-position-x: left;
+    background-size: 100% 2px;
+}
+
+mark {
+    background-color: #ffffff;
+    color: #5e63b6;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
